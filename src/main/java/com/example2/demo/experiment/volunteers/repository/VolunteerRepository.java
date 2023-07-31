@@ -1,0 +1,9 @@
+package com.example2.demo.experiment.volunteers.repository;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface VolunteerRepository extends CrudRepository<VolunteerEntity, Integer> {
+
+}
